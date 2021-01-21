@@ -37,11 +37,27 @@ menu_page1:
   iconmenu_title: '&c整地メニュー'
   iconmenu_size: 36
   iconmenu_commands:
-  - 0:GOLDEN_APPLE:0:/glist:&2playerlist:&aプレイヤーリストを開きます
+  - 0:PLAYER_HEAD%$player:0:$player ！！
   - 3:WOODEN_AXE:0:%openiconmenu%/menu_hogo:保護の詳細:保護の詳細ページを開きます
-  - 35:LEGACY_WOOL:11:%openiconmenu%/menu2:test:test
+  - 7:NETHER_STAR:0:%openiconmenu%/menu_idou:&bワールド移動メニュー
+  - 8:BEACON:0:/mvspawn $player:ワールドのSpawnに戻ります
+  - 35:PLAYER_HEAD%eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTliZjMyOTJlMTI2YTEwNWI1NGViYTcxM2FhMWIxNTJkNTQxYTFkODkzODgyOWM1NjM2NGQxNzhlZDIyYmYifX19:0:%openiconmenu%/menu2:2ページ
   cost: 0
   delaytimer: 0
+
+menu_page2:
+  command: /menu2
+  type: ICON_MENU
+  text:
+  - 'POSITION:ITEM_NAME:ITEMDATA:COMMAND/MESSAGE:TITLE:DESCRIPTION;MULTILINES'
+  - 'ITEM_NAME can also be ITEM_NAME;ENCHANTMENT_NAME;LEVEL'
+  iconmenu_title: '&cMyCommand &4ItemMenu'
+  iconmenu_size: 36
+  iconmenu_commands:
+  - 27:PLAYER_HEAD%eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQ2OWUwNmU1ZGFkZmQ4NGU1ZjNkMWMyMTA2M2YyNTUzYjJmYTk0NWVlMWQ0ZDcxNTJmZGM1NDI1YmMxMmE5In19fQ==:11:%openiconmenu%/menus:test:test
+  cost: 0
+  delaytimer: 0
+
 
 hogomenu_page1:
   command: /menu_hogo
@@ -56,24 +72,22 @@ hogomenu_page1:
   cost: 0
   delaytimer: 0
 
-
-menu_page2:
-  command: /menu2
+idoumenu_page1:
+  command: /menu_idou
   type: ICON_MENU
   text:
   - 'POSITION:ITEM_NAME:ITEMDATA:COMMAND/MESSAGE:TITLE:DESCRIPTION;MULTILINES'
   - 'ITEM_NAME can also be ITEM_NAME;ENCHANTMENT_NAME;LEVEL'
-  iconmenu_title: '&cMyCommand &4ItemMenu'
-  iconmenu_size: 36
+  iconmenu_title: '&c移動メニュー'
+  iconmenu_size: 9
   iconmenu_commands:
-  - 27:LEGACY_WOOL:11:%openiconmenu%/menus:test:test
+  - 0:GRASS_BLOCK:0:/mvtp $player seitiwa-rudo1:&f整地ワールド(地上):&8整地ワールド(地上)にワープします
+  - 1:NETHERRACK:0:/mvtp $player seitineza-:&f整地ワールド(ネザー):&8整地ワールド(ネザー)にワープします
+  - 3:END_STONE:0:/mvtp $player seitiend:&f整地ワールド(エンド):&8整地ワールド(エンド)にワープします
+  - 7:OAK_PLANKS:0:/mvtp $player kenntiku:&f建築ワールド:&8建築ワールドにワープします
+  - 8:CHEST:0:/mvtp $player shop:&fショップワールド:&8ショップワールドにワープします
   cost: 0
   delaytimer: 0
-
-
-
-
-
 
 
 

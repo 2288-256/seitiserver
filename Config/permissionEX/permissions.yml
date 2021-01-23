@@ -3,5 +3,13 @@ groups:
     options:
       default: true
     permissions:
+    - hubthat.hub
     - modifyworld.*
 schema-version: 1
+users:
+  e7c8c668-1ba0-458d-846d-1c5481930adf:
+    permissions:
+    - minecraft.command.deop
+    - minecraft.command.op
+    options:
+      name: '2288_256'

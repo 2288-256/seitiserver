@@ -1,0 +1,20 @@
+letter_of_invitation:
+  location: hub, 95.966, 6.164, -93.855
+  lines:
+  - '{player}さん'
+  - ようこそ整地Serverへ
+  - このサーバーのmenuは
+  - /menus
+  - で開けます！！
+kadouzyoukyou:
+  location: hub, 92.998, 6.880, -96.131
+  lines:
+  - 稼働状況
+  - 'Hub・・{world: hub}人'
+  - '通常世界・・{world: seitiwa-rudo1}人'
+  - 'ネザー・・{world: seitineza-}人'
+  - 'エンド・・{world: seitiend}人'
+  - '建築・・{world: kenntiku}人'
+  - 'ショップ・・{world: shop}人'
+  - '---------------'
+  - '合計人数・・{world: seitiwa-rudo1, seitineza-, seitiend, kenntiku, shop, hub}人'

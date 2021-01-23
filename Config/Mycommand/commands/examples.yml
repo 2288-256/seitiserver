@@ -37,8 +37,8 @@ menu_page1:
   iconmenu_title: '&c整地メニュー'
   iconmenu_size: 36
   iconmenu_commands:
-  - 0:PLAYER_HEAD%$player:0:%stayopen%:$playerの頭
-  - 3:WOODEN_AXE:0:%openiconmenu%/menu_hogo:保護の詳細:保護の詳細ページを開きます
+  - 0:PLAYER_HEAD%$player:0:%stayopen%:$playerの頭だよろこべよ
+  - 3:WOODEN_AXE:0:%openiconmenu%/menu_hogo:保護の詳細(未実装):保護の詳細ページを開きます
   - 7:NETHER_STAR:0:%openiconmenu%/menu_idou:&bワールド移動メニュー
   - 8:BEACON:0:/mvspawn $player:ワールドのSpawnに戻ります
   - 35:PLAYER_HEAD%eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTliZjMyOTJlMTI2YTEwNWI1NGViYTcxM2FhMWIxNTJkNTQxYTFkODkzODgyOWM1NjM2NGQxNzhlZDIyYmYifX19:22:%openiconmenu%/menu2:2ページ
@@ -51,9 +51,10 @@ menu_page2:
   text:
   - 'POSITION:ITEM_NAME:ITEMDATA:COMMAND/MESSAGE:TITLE:DESCRIPTION;MULTILINES'
   - 'ITEM_NAME can also be ITEM_NAME;ENCHANTMENT_NAME;LEVEL'
-  iconmenu_title: '&cMyCommand &4ItemMenu'
+  iconmenu_title: '&c整地メニュー'
   iconmenu_size: 36
-  iconmenu_commands:
+  iconmenu_commands:NETHER_STAR
+  - 8:NETHER_STAR:0:/mvtp $player hub:Hubに戻ります
   - 27:PLAYER_HEAD%eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQ2OWUwNmU1ZGFkZmQ4NGU1ZjNkMWMyMTA2M2YyNTUzYjJmYTk0NWVlMWQ0ZDcxNTJmZGM1NDI1YmMxMmE5In19fQ==:11:%openiconmenu%/menus:1ページ
   cost: 0
   delaytimer: 0
@@ -65,10 +66,12 @@ hogomenu_page1:
   text:
   - 'POSITION:ITEM_NAME:ITEMDATA:COMMAND/MESSAGE:TITLE:DESCRIPTION;MULTILINES'
   - 'ITEM_NAME can also be ITEM_NAME;ENCHANTMENT_NAME;LEVEL'
-  iconmenu_title: '&c保護メニュー'
+  iconmenu_title: '&c保護メニュー(未実装)'
   iconmenu_size: 9
   iconmenu_commands:
-  - 0:WOODEN_AXE:0://wand:0:0
+  - 0:WOODEN_AXE:0:%stayopen%:保護の取り方:隣にある木の斧を選択します;範囲を選択して金の斧を押します;/rg claim [保護エリア名] [自分のminecraft名]を実行すると保護が取れます
+  - 1:WOODEN_AXE:0://wand:保護を取るためのツール:保護を取るための木の斧を召喚します
+  - 2:GOLDEN_AXE:0://expand vert:保護の範囲を設定します:保護の範囲を岩盤から上限の高さまで引き上げます
   cost: 0
   delaytimer: 0
 

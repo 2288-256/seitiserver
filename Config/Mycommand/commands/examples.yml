@@ -37,11 +37,11 @@ menu_page1:
   iconmenu_title: '&c整地メニュー'
   iconmenu_size: 36
   iconmenu_commands:
-  - 0:PLAYER_HEAD%$player:0:$player ！！
+  - 0:PLAYER_HEAD%$player:0:%stayopen%:$playerの頭
   - 3:WOODEN_AXE:0:%openiconmenu%/menu_hogo:保護の詳細:保護の詳細ページを開きます
   - 7:NETHER_STAR:0:%openiconmenu%/menu_idou:&bワールド移動メニュー
   - 8:BEACON:0:/mvspawn $player:ワールドのSpawnに戻ります
-  - 35:PLAYER_HEAD%eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTliZjMyOTJlMTI2YTEwNWI1NGViYTcxM2FhMWIxNTJkNTQxYTFkODkzODgyOWM1NjM2NGQxNzhlZDIyYmYifX19:0:%openiconmenu%/menu2:2ページ
+  - 35:PLAYER_HEAD%eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTliZjMyOTJlMTI2YTEwNWI1NGViYTcxM2FhMWIxNTJkNTQxYTFkODkzODgyOWM1NjM2NGQxNzhlZDIyYmYifX19:22:%openiconmenu%/menu2:2ページ
   cost: 0
   delaytimer: 0
 
@@ -54,7 +54,7 @@ menu_page2:
   iconmenu_title: '&cMyCommand &4ItemMenu'
   iconmenu_size: 36
   iconmenu_commands:
-  - 27:PLAYER_HEAD%eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQ2OWUwNmU1ZGFkZmQ4NGU1ZjNkMWMyMTA2M2YyNTUzYjJmYTk0NWVlMWQ0ZDcxNTJmZGM1NDI1YmMxMmE5In19fQ==:11:%openiconmenu%/menus:test:test
+  - 27:PLAYER_HEAD%eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQ2OWUwNmU1ZGFkZmQ4NGU1ZjNkMWMyMTA2M2YyNTUzYjJmYTk0NWVlMWQ0ZDcxNTJmZGM1NDI1YmMxMmE5In19fQ==:11:%openiconmenu%/menus:1ページ
   cost: 0
   delaytimer: 0
 

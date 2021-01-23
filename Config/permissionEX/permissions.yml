@@ -1,15 +1,15 @@
 groups:
   default:
     options:
-      default: true
+      default: true                       #初期グループ
     permissions:
-    - hubthat.hub
-    - modifyworld.*
+    - hubthat.hub                         #/hubの使用許可
+    - modifyworld.*                       #プレイする上での必要権限
 schema-version: 1
 users:
-  e7c8c668-1ba0-458d-846d-1c5481930adf:
+  e7c8c668-1ba0-458d-846d-1c5481930adf:   #2288_256のデータ
     permissions:
-    - minecraft.command.deop
-    - minecraft.command.op
+    - minecraft.command.deop              #/deopの使用許可 
+    - minecraft.command.op                #/opの使用許可
     options:
       name: '2288_256'

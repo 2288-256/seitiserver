@@ -1,13 +1,14 @@
 letter_of_invitation:
-  location: hub, 95.966, 6.164, -93.855
+  location: hub, 96.000, 6.000, -94.000
   lines:
+  - '&c&lテスト稼働中です！！'
   - '{player}さん'
   - ようこそ整地Serverへ
   - このサーバーのmenuは
   - /menus
   - で開けます！！
 kadouzyoukyou:
-  location: hub, 92.998, 6.880, -96.131
+  location: hub, 93.000, 7.000, -96.000
   lines:
   - 稼働状況
   - 'Hub・・{world: hub}人'
@@ -18,3 +19,28 @@ kadouzyoukyou:
   - 'ショップ・・{world: shop}人'
   - '---------------'
   - '合計人数・・{world: seitiwa-rudo1, seitineza-, seitiend, kenntiku, shop, hub}人'
+tuuzyousekai:
+  location: hub, 98.000, 6.000, -96.000
+  lines:
+  - 通常世界
+  - '接続人数・{world: seitiwa-rudo1}人'
+neza-:
+  location: hub, 98.000, 6.00, -100.00
+  lines:
+  - ネザー
+  - '接続人数・{world: seitineza-}人'
+end:
+  location: hub, 98.000, 6.00, -104.000
+  lines:
+  - エンド
+  - '接続人数・{world: seitiend}人'
+kenntiku:
+  location: hub, 94.000, 6.000, -100.000
+  lines:
+  - 建築
+  - '接続人数・{world: kenntiku}人'
+shop:
+  location: hub, 94.000, 6.000, -104.000
+  lines:
+  - ショップ
+  - '接続人数・{world: shop}人'

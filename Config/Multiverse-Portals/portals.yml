@@ -1,0 +1,51 @@
+portals:
+  hub(neza-):
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: '2288_256'
+    location: 99.0,4.0,-101.0:99.0,6.0,-100.0
+    world: hub
+    destination: seitineza-
+  hub(end):
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: '2288_256'
+    location: 99.0,4.0,-105.0:99.0,6.0,-104.0
+    world: hub
+    destination: seitiend
+  hub(shop):
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: '2288_256'
+    location: 92.0,4.0,-105.0:92.0,6.0,-104.0
+    world: hub
+    destination: shop
+  hub(kenntiku):
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: '2288_256'
+    location: 92.0,4.0,-101.0:92.0,6.0,-100.0
+    world: hub
+    destination: kenntiku
+  hub(tuuzyousekai1):
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: '2288_256'
+    location: 99.0,4.0,-97.0:99.0,6.0,-96.0
+    world: hub
+    destination: seitiwa-rudo1

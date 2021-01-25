@@ -32,7 +32,7 @@ menu_page1:
   command: /menus
   type: ICON_MENU
   text:
-  - 'POSITION:ITEM_NAME:ITEMDATA:COMMAND/MESSAGE:TITLE:DESCRIPTION;MULTILINES'
+  #'場所:アイテム名:内部ID(基本0でいい):コマンド:アイテム名:アイテム詳細;←これで改行'
   - 'ITEM_NAME can also be ITEM_NAME;ENCHANTMENT_NAME;LEVEL'
   iconmenu_title: '&cテストメニュー'
   iconmenu_size: 9

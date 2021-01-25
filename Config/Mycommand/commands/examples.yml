@@ -30,7 +30,7 @@
 #-------------------------------------------------------------------------------------------------------------------#
 menu_page1:
   command: /menus
-  type: ICON_MENU
+  type: ICON_MENU 
   text:
   - 'POSITION:ITEM_NAME:ITEMDATA:COMMAND/MESSAGE:TITLE:DESCRIPTION;MULTILINES'
   - 'ITEM_NAME can also be ITEM_NAME;ENCHANTMENT_NAME;LEVEL'
@@ -97,6 +97,18 @@ Random_Teleport:
   command: /rtp
   type: RUN_CONSOLE
   runcmd:
-  - /effect give $player minecraft:resistance 4 99
-  - /spreadplayers ~ ~ 0 500 false $player
+  - /spreadplayers $locX $locZ 160 400 false $player
   - /tell $player ランダムテレポートをしました。
+  
+
+hub:
+  command: /h
+  type: RUN_CONSOLE
+  runcmd:
+  - /mvtp $player hub
+  
+spawn:
+  command: /spawn
+  type: RUN_CONSOLE
+  runcmd:
+  - /mvspawn $player

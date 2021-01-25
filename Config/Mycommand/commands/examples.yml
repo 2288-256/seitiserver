@@ -97,6 +97,7 @@ Random_Teleport:
   command: /rtp
   type: RUN_CONSOLE
   runcmd:
+  - /effect give $player minecraft:resistance 4 99
   - /spreadplayers $locX $locZ 160 400 false $player
   - /tell $player ランダムテレポートをしました。
   
